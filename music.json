@@ -1,12 +1,14 @@
 [
     {
-        "url" : "/mp3/01.mp3",
+        "url" : "22677433.mp3 ",
         "title" : "千本樱",
-        "author" : "初音未来"
+        "author" : "初音未来",
+        "background" : "img/01.jpg"
     },
     {
-        "url" : "/mp3/02.mp3",
+        "url" : "542364335.mp3",
         "title" : "逆浪千秋" ,
-        "author" : "言和"
+        "author" : "言和",
+        "background" : "img/02.png"
     }
 ]

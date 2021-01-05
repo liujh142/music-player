@@ -78,3 +78,6 @@ body{
     overflow: hidden;
     cursor: pointer;
 }
+.active{
+    font-weight: 800;
+}
