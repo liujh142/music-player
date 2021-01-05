@@ -41,7 +41,7 @@ function loadMusic(musicObj){
     audio.src = 'http\:\/\/music\.163\.com\/song\/media\/outer\/url\?id\=' + musicObj.url;
     $('.title').innerText = musicObj.title;
     $('.author').innerText = musicObj.author;
-    // $('.cover').style.backgroundImage = 'url(' + musicObj.background + ')'
+    $('.cover').style.backgroundImage = 'url(' + musicObj.background + ')'
 
 }
 audio.onended = function(){
