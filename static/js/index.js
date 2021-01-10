@@ -89,6 +89,7 @@ audio.onpause = function(){
     icon.classList.remove('icon-zanting')
 }
 $('.music-bar').onclick = function(e){
+    console.log(e)
     var percent = e.offsetX / parseInt(getComputedStyle(this).width);
     audio.currentTime = audio.duration * percent;
     audio.play();
